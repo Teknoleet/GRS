@@ -1,0 +1,33 @@
+{
+  "name": "grs",
+  "version": "1.0.0",
+  "description": "An Electron app to display GitHub runner status",
+  "main": "main.js",
+  "author": "0x1347",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.teknoleet.githubrunnerstatus",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "files": [
+      "**/*"
+    ],
+    "extraFiles": []
+  },
+  "devDependencies": {
+    "electron": "^32.1.0",
+    "electron-builder": "^25.0.5"
+  },
+  "dependencies": {
+    "keytar":"^7.9.0",
+    "node-fetch":  "^2.7.0"
+  }
+}
