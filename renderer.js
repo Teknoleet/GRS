@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         content.innerHTML = '<p>Loading runner status...</p>';
     
         try {
-        const response = await fetch('https://api.github.com/orgs/blink-global/actions/runners', {
+        const response = await fetch('https://api.github.com/orgs/<your-org-here>/actions/runners', {
             headers: {
             'Authorization': `Bearer ${token}`,
             'Accept': 'application/vnd.github+json',

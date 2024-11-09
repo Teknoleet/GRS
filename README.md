@@ -35,16 +35,23 @@ An Electron-based macOS menu bar application that displays the status of GitHub 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd github-runner-status
+   cd GRS
    ```
 
-3. **Install Dependencies**:
+3. **Change to your Organization**
+
+
+   in `renderer.js` file change it to you organization name in line 50
+
+
+
+4. **Install Dependencies**:
 
    ```bash
    npm install
    ```
 
-4. **Rebuild Native Modules** (Required because `keytar` is a native module):
+5. **Rebuild Native Modules** (Required because `keytar` is a native module):
 
    ```bash
    npm run build
