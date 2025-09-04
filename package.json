@@ -23,7 +23,7 @@
     "extraFiles": []
   },
   "devDependencies": {
-    "electron": "^32.1.0",
+    "electron": "^35.7.5",
     "electron-builder": "^25.0.5"
   },
   "dependencies": {
